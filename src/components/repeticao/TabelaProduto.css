@@ -1,0 +1,25 @@
+.TabelaProduto {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.TabelaProduto th {
+    background-color: darkcyan;
+    color: white;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.TabelaProduto tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+.TabelaProduto tbody tr:hover {
+    background-color: rgba(185, 245, 179, 0.349);
+    cursor: pointer;
+}
+
+.TabelaProduto td {
+    padding: 5px 0;
+    white-space: nowrap;
+}
